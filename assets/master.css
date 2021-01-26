@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.red {
+  background-color: red;
+  height: 100vh;
+}
+
+.green {
+  background-color: green;
+  height: 100vh;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100vh;
+}
+
+p {
+  text-transform: uppercase;
+  font-size: 3em;
+  text-align: center;
+}
+
+.color-y {
+  color: yellow
+}
+
+.color-g {
+  color: green;
+}
+
+.img-setting {
+  width: 60vh;
+  margin: auto;
+}
+
+img {
+  width: 60vh;
+}

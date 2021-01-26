@@ -6,6 +6,27 @@
 
 body {
   font-family: 'Coda Caption', sans-serif;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  right: 3vw;
+  top: 3vh;
+}
+
+li {
+  background-color: lightgray;
+  display: inline-block;
+  list-style: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 .red {
@@ -38,10 +59,12 @@ p {
 }
 
 .img-setting {
-  width: 60vh;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
   margin: auto;
 }
 
 img {
-  width: 60vh;
+  width: 100%;
 }
